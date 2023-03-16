@@ -10,8 +10,8 @@
   /* typography */
   --ff-outfit: 'Outfit', sans-serif;
 
-  --fz-md: 15px;
-  --fz-lg: 20px;
+  --fz-md: 16px;
+  --fz-lg: 24px;
 
   --fw-400: 400;
   --fw-700: 700;
@@ -56,7 +56,7 @@ main {
 }
 
 .card__body {
-  padding: 16px;
+  padding: 8px;
   text-align: center;
 }
 
@@ -67,7 +67,7 @@ main {
   color: var(--dark-blue);
 }
 
-.card__body span {
+.card__body p {
   font-size: var(--fz-md);
   font-weight: var(--fw-400);
   color: var(--grayish-blue);
